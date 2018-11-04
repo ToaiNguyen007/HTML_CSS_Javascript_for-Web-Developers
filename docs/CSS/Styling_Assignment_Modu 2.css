@@ -40,25 +40,35 @@ h4{
 
 h4#chicken{
 	background-color: #36F;
-	border-color: #FFF;
+	border-color: #000;
 	color: #FFF;
 }
 
 h4#beef{
 	background-color: #3C0;
+	border-color: #000;
 	color: #333;
-	border-color: #FFF;
 }
 
 h4#sushi{
 	background-color: #90F;
-	color: #FFFs;
-	border-color: #FFF;
+	border-color: #000;
+	color: #FFF;
 }
 
-.col_lg_4, .col_md_6, .col_md_6_p3, .col_sm_12{
+.col_lg_4#first, .col_md_6#first, .col_sm_12#first{
 	background-color: #963;
 	color: #FFF;
+}
+
+.col_lg_4#second, .col_md_6#second, .col_sm_12#second{
+	background-color: #CC3;
+	color: #000;
+}
+
+.col_lg_4#third, .col_md_6_p3#third, .col_sm_12#third{
+	background-color: #F63;
+	color: #000;
 }
 @media (min-width: 992px){	
 	.col_lg_4, .col_md_6, .col_sm_12{
